@@ -2,13 +2,16 @@ package whileloop;
 
 class Prime
 {
+	
+	// Prime
     public static void main(String args[])
     {
       Prime obj=new Prime();
-            obj.number(56);
-            obj.number(73);
-            obj.number(29);
-            obj.number(107);
+      	obj.numbers();
+	    obj.number(56);
+	    obj.number(73);
+	    obj.number(29);
+	    obj.number(107);
     }
          public void number(int num)
          {
@@ -33,13 +36,7 @@ class Prime
             }
 
          
-         
-         
-   public static void main(String args[])
-   {
-	   Prime obj=new Prime();
-	         obj.numbers();
-   }
+	   
    public void numbers()
    {
 	   int count=0;
